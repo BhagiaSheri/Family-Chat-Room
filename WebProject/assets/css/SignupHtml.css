@@ -1,0 +1,88 @@
+body{
+    background: url(https://images.unsplash.com/photo-1461773518188-b3e86f98242f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80); 
+    background-size: cover;
+    /* background-position: center; */
+    font-family: Lato;
+    color: white; 
+    /* background-repeat: no-repeat;*/
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+    }
+ #signup{
+        text-align: center;
+        font-size: 16;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        color: #000;
+        text-decoration-line: underline;
+    } 
+
+    #signupbtn{
+        height: 40px;
+        color:white;
+        background:black;
+        cursor: pointer;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+        font-size: 20;
+        font-style: bold;
+        width: 380px;
+        text-align: center;
+        font-weight:bolder;
+        font-size: 16;
+    }
+    #loginlink{
+        color:brown;
+        font-weight: 800;
+        font-size: 1em;
+    }
+    form{
+        bottom: 10%;
+        top:0%;
+       opacity:0.8;
+       position: relative;
+           width: 380px;
+           height: 870px;
+           margin-right: 30%;
+           margin-left: 30%;
+           border-radius: 25px;
+           background:#cac7c7;
+           padding: 20px 22px;
+           border: 1px solid;
+           border-top-color:black;
+           border-bottom-color:black;
+           border-right-color:black;
+           border-left-color:black;
+           }
+           form input{
+   
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+            font-size: 16;
+            font-style: bold;
+            width: 350px;
+            border-radius: 25px;
+            border-bottom: #022140;
+            border-right-color: #022140;
+            border-top-color: #022140;
+            border-left-color: #022140;
+            background-color:rgba(0, 0, 0, 2);
+            outline:none;
+            padding:8px 24px 8px 10px;
+            letter-spacing:.075em;
+            color:black;
+            margin-bottom:19px;
+        
+        }
+           .input{
+               text-align: right;
+               font-size: 20;
+           }
+.sign{
+    color:black;
+    font-size: 20;
+}
