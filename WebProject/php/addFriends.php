@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FindFriends</title>
+<meta charset="UTF-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=0.0">
+<meta http-eqiv="X-UA-Compatiable"
+content="ie=edge">
+
+<title>FindFriends</title>
 
     <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
 <!-- <link rel="stylesheet" type="text/css" href="../assets/lib/bootstrap.css">  -->

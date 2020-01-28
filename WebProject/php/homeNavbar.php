@@ -13,7 +13,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-               <a class="navbar-brand" href="#" id="link">Chat It Up</a>
+               <a class="navbar-brand" href="#" id="link">Family Chat Room</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -29,6 +29,8 @@
           <!-- Family Group -->
           <li><a href="#" id="link">Family Group <i class="fa fa-users fa-lg" aria-hidden="true"></i><i class="fa fa-plus-circle fa-xs" aria-hidden="true"></i></a></li>
           
+          <!-- Find Friends -->
+          <li><a href="../php/addFriends.php" id="link">Find Friends <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
           <!-- for Notification -->
               <li class="dropdown">
                 <?php 
@@ -48,7 +50,6 @@
               <li><a href="seenRequest.php"><strong>MARK ALL AS SEEN!</strong></a></li>
             </ul>
           </li>
-                <li><a href="../php/addFriends.php" id="link">Find Friends <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                   <?php 

@@ -52,11 +52,6 @@ if(isset($_GET['friendchat'])){
     $_SESSION['msgSendTo']=$_GET['friendchat'];
 }
 
-
-
-
-
-
 echo "<div id='msg-frame'>";
 
 $stm=$conn->prepare("select sendBy, message, datetime from log where (sendBy=? and sendTo=?) OR (sendBy=? and sendTo=?) order by log_id");
