@@ -7,7 +7,7 @@ content="width=device-width, initial-scale=0.0">
 <meta http-eqiv="X-UA-Compatiable"
 content="ie=edge">
 
-<title>FindFriends</title>
+<title>Find Friends</title>
 
     <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
 <!-- <link rel="stylesheet" type="text/css" href="../assets/lib/bootstrap.css">  -->
@@ -22,7 +22,10 @@ content="ie=edge">
     if($conn==null){
     include_once("connection.php");
 
-    echo "<div class='jumbotron'>
+    
+
+    echo "<div class='container'>
+    <div class='jumbotron'>
     <h1><i class='fas fa-users'></i> Find Friends</h1>
     <p><i>'Since there is nothing so well worth having as friends, never lose a chance to make them.'</i></p>
   </div>";
@@ -102,16 +105,17 @@ content="ie=edge">
         $res=$stm3->fetch();
     
  
-    echo "<div class='row'>";
+       echo "<div class='row'>";
 
 	    echo "<div class='col-lg-4 col-sm-6'>";
-       // echo "<div class='thumbnail'>";
+        // echo "<div class='thumbnail'>";
     
        echo "<img src='data:".$res["imgtype"].";base64,".base64_encode($res["profilepic"])."'height='100' width='100'/>";
        echo "<p><a style='color:#ecf0f1;' href='request.php?sendto=".$row."'><h4><i class='fas fa-handshake'></i>  <b>".$row."</b></h4></a></p>";
 
-      // echo "</div>";
+    //    echo "</div>";
        echo "</div>";
+      
        
 
       
@@ -135,6 +139,7 @@ content="ie=edge">
             //    <hr></div>';
             }
             echo "</div>"; 
+            echo "</div>";
             echo "<br><hr>";
             echo "<a id='previous' href='home.php'><h4><i class='fas fa-backward'></i> <i> Home Page</i></h4></a><br>";
    }

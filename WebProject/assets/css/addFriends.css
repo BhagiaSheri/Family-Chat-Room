@@ -1,6 +1,7 @@
 body{
-    padding-top: 70px;
-    margin-inline-start: 5em;
+    padding: 70px;
+    /* padding-top: 70px; */
+    /* margin-inline-start: 5em; */
     }
     .jumbotron{
     color: #2c3e50;
